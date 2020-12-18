@@ -94,6 +94,17 @@ hr.new5 {
 	font-weight: 900;
 	margin-top: -35px;
 }
+.focus h4{
+	color: #fff;
+	font-size: 70px;
+	font-weight: 700;
+}
+.focus h5{
+	color: #f58635;
+	font-size: 40px;
+	font-weight: 900;
+	margin-top: 0;
+}
 
 .consult{
 	background-color: #f58635;
@@ -113,19 +124,69 @@ hr.new5 {
   padding-bottom: 5px; /* this can also control the position */
 }
 
-.column1{
+.consult input[type=name], .consult input[type=text], .consult input[type=email], select {
+	border-radius: 15px;
+	margin-top: 5px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+.consult button {
+	background-color: transparent;
+	color: #000;
+	border: 1px #424242 solid;
+	font-size: 20px;
+	font-weight: bold;
+	float: right
+}
+
+.consult button:hover{
+	background-color: #424242;
+	color: #fff;
+	border: 1px #424242 solid;
+}
+
+.heading{
+	text-align: center;
+	font-weight: bold;
+}
+
+.services{
 	margin: 50px;
 }
 
+.session{
+	margin-top: 30px;
+}
+
+.partners-hold{
+	margin: 20px;
+}
+.partners{
+	height: 120px;
+	background-color: #cccccc;
+	border-radius: 70px;
+	margin: 20px;
+	text-align: center;
+}
 .footer{
 	background-color: #000;
-	height: 300px;
+	height: 250px;
+	color: #fff;
+}
+.footer h3 {
+	margin-left:20px;
 }
 
 .bottom{
+	background-color: #000;
 	color: #fff;
 	text-align: center;
+	margin-top: 0;
+	height: 50px;
 }
+
+
 @media (min-width: 200px) { 
 .container-fluid > .navbar-header{
 	margin-left: -13px;
