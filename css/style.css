@@ -53,10 +53,10 @@
 
 
 .navbar-nav > li > a {
-    padding: 10px;
-    border-right: 2px solid #fff;
-    margin-top: 15px;
+    padding: 20px;
+    margin-top: 3px;
     font-size: 16px;
+    /*border: 1px solid #fff;*/
 }
 
 .navbar-inverse .navbar-nav > .active > a {
@@ -69,6 +69,7 @@
 }
 .navbar-inverse .navbar-nav > li > a:hover {
 	color: #f58635;
+	border: 1px solid #f58635;
 }
 
 hr.new5 {
@@ -101,6 +102,13 @@ hr.new5 {
     opacity: .7;
     font-weight: bold;
     font-size: 20px;
+}
+
+.inner-caption {
+	width: 100%;
+	background-color: transparent;
+	height: auto;
+	color: #fff;
 }
 
 .focus{
@@ -180,12 +188,158 @@ hr.new5 {
 
 .services{
 	margin: 50px;
+	text-align: center;
+	font-size: 16px;
+}
+
+.services a > img:hover{
+	opacity: .6;
+}
+.services h2 > a{
+	text-decoration: none;
+	color: #f58635;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.services h2 > a:hover {
+	text-decoration: none;
+	color: #424242;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.services p > a{
+	background-color: #f58635;
+	border: 1px solid #f58635;
+	color: #fff;
+}
+
+.services p > a:hover {
+	background-color: #424242;
+	border: 1px solid #424242;
+	color: #f58635;
 }
 
 .session{
 	margin-top: 30px;
+	text-align: center;
 }
 
+.session img:hover{
+	opacity: .6;
+}
+
+.session a{
+	text-decoration: none;
+	color: #f58635;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.session a:hover {
+	text-decoration: none;
+	color: #424242;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+/*The Book Section*/
+.book .col-author {
+	background-color: #f1f1f1f1;
+	border-radius: 5px;
+}
+
+.book a{
+	background-color: #f58635;
+	border: 1px solid #f58635;
+	color: #000;
+	text-align: center;
+
+}
+
+/*.book .book-below{
+	margin-left: 30%;
+	margin-bottom: 5px;
+}*/
+
+.book img {
+
+}
+
+ /* Slideshow container */
+
+.slideshow-container {
+  position: relative;
+  background: #fff;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+  text-align: center;
+  padding: 20px;
+  background: #fff;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+/* Add a blue color to the author */
+.author {color: cornflowerblue;} 
+
+/*our partners*/
 .partners-hold{
 	margin: 20px;
 }
@@ -196,15 +350,94 @@ hr.new5 {
 	margin: 20px;
 	text-align: center;
 }
+
+/*App Download*/
+
+.btn-store {
+  color: #777777;
+  min-width: 254px;
+  padding: 12px 20px !important;
+  border-color: #dddddd !important;
+}
+
+.btn-store:focus, 
+.btn-store:hover {
+  color: #000 !important;
+  background-color: #f58635;
+  border-color: #000 !important;
+}
+
+.btn-store .btn-label, 
+.btn-store .btn-caption {
+  display: block;
+  text-align: left;
+  line-height: 1;
+}
+
+.btn-store .btn-caption {
+  font-size: 24px;
+}
+
 .footer{
 	background-color: #000;
-	height: 250px;
+	height: 350px;
 	color: #fff;
 }
 .footer h3 {
 	margin-left:20px;
 }
 
+.footer-contact p{
+	padding-left: 20px;
+	font-size: 16px;
+}
+
+.footer-news {
+	margin-top: 20px;
+	margin-left: 10px;
+}
+.footer-news h2{
+	font-size: 16px;
+	margin-top: 0;
+}
+.footer-news a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.footer-news a:hover {
+	color: #f58635;
+}
+
+.footer-links ul > li > a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 16px;
+	padding: 5px;
+}
+
+.footer-links ul > li > a:hover {
+	text-decoration: none;
+	color: #f58635;
+}
+
+.footer-subscribe input[type=text] {
+	width: 250px;
+	margin-top: 10px;
+	height: 35px;
+	color: #000;
+}
+
+.footer-subscribe input[type=email] {
+	width: 250px;
+	margin-top: 10px;
+	height: 35px;
+	color: #000;
+}
+.footer-subscribe button {
+	margin-top: 10px;
+	width: 250px;
+}
 .bottom{
 	background-color: #000;
 	color: #fff;
@@ -212,6 +445,16 @@ hr.new5 {
 	margin-top: 0;
 	height: 50px;
 }
+
+.bottom a {
+	text-decoration: none;
+	color: #f58635;
+}
+
+.bottom a:hover {
+	color: #cccccc;
+}
+
 
 
 @media (min-width: 200px) { 
